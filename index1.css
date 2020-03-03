@@ -1,0 +1,173 @@
+/*Styles applied to body*/
+body {      
+  margin: 0 auto;
+  background-color: yellow;
+  background-image: linear-gradient(to bottom right,yellow,white);
+}
+
+/*Style to heading(h1)*/
+h1{
+   text-align: center;
+}
+
+/*Styles to heading(h1) at id='kaaviya'*/
+#kaaviya h1{
+   border-width:1px 5px 2px 3px;
+   border: solid green;
+   margin: 0 auto;
+   font-size: 36px;
+   color: red;
+   font-family:Roboto;
+}
+
+/*Styles to heading(h2) at id='kaaviya'*/
+#kaaviya h2{
+    font-size: 26px;
+    color: red;
+    font-family:roboto;
+    border-width: 4px 2px 4px ;
+    border: solid green;
+}
+
+/*Styles to heading(h1) at id='abi'*/
+#abi h1{
+    border: solid blue;
+}
+
+/*Style to label*/
+label{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Styles to heading(h2) at id='abi'*/
+#abi h2{
+    border: 2px solid blue;
+    border-bottom: 3px solid blue;
+}
+
+/*Style applied to justify paragraphs*/
+.styles {
+   text-align: justify;
+}
+
+/*Styles applied to button*/       
+.button{
+   border: none;
+   padding:17px,32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+}
+
+/*Style applied to center allign the image*/
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+/*Styles applied to provide padding to id='abi'*/
+#abi div{
+    padding: 4px,3px,2px,1px;
+    
+}
+
+/*Styles applied to table*/
+table{
+    height: 400px;
+    width:49%;
+    float: left;
+    width: 38%;
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right,yellow,white);
+}
+
+/*Styles applied to table*/
+#kaaviya_tab table,th,td,tr{
+    border: 2px solid black;
+    border-collapse: collapse; 
+          
+}
+
+/*Styles applied to form*/
+#form{
+    
+    background-color: yellow;
+    background-image: linear-gradient(to bottom right,yellow,white);
+    float: right;
+    border: solid black;
+    padding: 30px;
+    width: 49%;
+    margin: 0px 20px;
+    margin-bottom: 40px;
+}
+
+/*style to box1*/
+#one #box1{
+    border: 2px solid black;
+    width: 100vw;
+    background-color: blueviolet;
+    height: 100vh;
+    position: absolute;
+}
+
+/*style to box2*/
+#one #box2{
+    border: 2px solid black;
+    width: 10vw;
+    height: 20vh;
+    position: relative;
+    margin: 10px;
+    border-radius: 53px;
+    background-image: url("../image/cover.jpg");
+    background-size: cover;
+}
+
+/*style to box3*/
+#one #box3{
+    border: 2px solid black;
+    width: 10vw;
+    position: relative;
+    height: 20vh;
+    margin: 0px 20px 20px 150px;
+    border-radius: 53px;
+    background-image: url("../image/paris.jfif");
+    background-size: cover;
+}
+
+/*style to box4*/
+#one #box4{
+    border: 2px solid black;
+    width: 10vw;
+    position: relative;
+    height: 20vh;
+    margin: 0px 20px 20px 300px;
+    border-radius: 53px;
+    background-image: url("../image/autumn.jpg");
+    background-size: cover;
+}
+
+/*style to box5*/
+#one #box5{
+    border: 2px solid black;
+    width: 10vw;
+    position: relative;
+    height: 20vh;
+    margin: 0px 20px 20px 450px;
+    border-radius: 53px;
+    background-color:rgba(255, 25, 0, 0.4);
+}
+
+@media only screen and (max-width:600px)
+{
+    #box1 {
+        background-color: pink;
+        
+    }
+}
